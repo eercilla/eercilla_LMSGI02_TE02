@@ -1,0 +1,110 @@
+<!--******************************************************************************************************************
+
+  Nombre:   Eduardo Ercilla
+  Fecha:    27/11/2023
+  Modulo:   Lenguaje de marcas y sistemas de gestión de la información (DAW)
+  UD:       UD02 Desarrollo web con HTML5 y CSS3.
+  Tarea:    Tarea Evaluacion 02. Sitio web.
+  
+*******************************************************************************************************************/
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <!--cabecera-->
+    <head>
+        <meta charset="utf-8">
+        <!--título de la página.-->
+        <title>Nintendo 64 Enciclopedia</title>
+        <!--fuente que utilizaremos será de google.-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap&family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+        <!--fichero de estilos que utilizaremos en la página.-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <!--cuerpo-->
+    <body>
+
+        <!--permite insertar una zona de visualización para las cabeceras.-->
+        <header >
+            <!--muestra las imágenes con ruta relativa y el título con formato de la cabecera-->
+            <img src="./img/consola.png" class="icon1" alt="consola">
+            <!--título que se muestra en la cabecera con formato--> 
+            <h1 class="titulo">Nintendo 64 Enciclopedia</h1>
+            <img src="./img/logo.png" class="icon2" alt="logo">
+        </header>
+    
+        <!--zona de navegación con enlaces a las diferentes páginas html-->
+        <nav>
+            <ul>
+                <li><a href="./index.html"><button type="button" class="buttonnav floatr">Inicio</button></a></li>
+                <li><a href="./genero.html"><button type="button" class="buttonnav floatr">Géneros</button></a></li>
+                <li><a href="./noticias.html"><button type="button" class="buttonnav floatr">Noticias</button></a></li>
+                <li><a href="./contacto.html"><button type="button" class="buttonnav floatr">Contacto</button></a></li>
+            </ul>
+        </nav>
+
+        <!--contenido central-principal-->
+        <main>
+
+            <!--agrupa elementos con la misma temática-->
+            <section class="seccionlist">
+
+                <!--título con formato que se muestra en la web superpuesto a la imagen con ruta relativa--> 
+                <h1 class="titulo" id="listajuegos">PLATAFORMAS</h1>
+                <img class="imagen" id="imgbanner" src="./img/plataformasgen.jpg" alt="imagen">
+                
+                <!--bloque de letra A--> 
+                <article class="lista">
+                    <h3>A</h3>
+                </article>
+
+                <!--bloque de letra B--> 
+                <article class="lista">
+                    <h3>B</h3>
+                    <p>Banjo-Kazooie</p>
+                    <p>Banjo-Tooie</p>
+                </article>
+
+                <!--bloque--> 
+                <article class="lista">
+                    <h3>...</h3>
+                </article>
+                
+                <!--bloque de letra S--> 
+                <article class="lista">
+                    <h3>S</h3>
+                    <p>Starshot: Space Circus Fever</p>
+                    <p>Space Station Silicon Valley</p>
+
+                    <!--Texto con hipervínculo con ruta relativa-->
+                    <a id="linklista" href="./juego.html">Super Mario 64</a>
+                </article>
+                
+                <!--bloque de letra T--> 
+                <article class="lista">
+                    <h3>T</h3>
+                    <p>Taz Express</p>
+                </article>
+
+                <!--bloque--> 
+                <article class="lista">
+                    <h3>...</h3>
+                </article>
+            </section>
+        </main>
+    
+        <!--pie de página-->
+        <footer>
+            <!--zona de visualización para los pies de página-->
+            <p>Eduardo Ercilla Martín // Birt LH - DAW</p>
+            <p class="licencias">Autoría y licencias: Página web realizada por Eduardo Ercilla Martín con fines
+            educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>
+        </footer>
+    </body>
+</html>

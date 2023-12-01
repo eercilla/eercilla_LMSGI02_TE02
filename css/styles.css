@@ -1,0 +1,566 @@
+/* Estilos de las etiquetas semánticas */
+
+/* Estilo cuerpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #4d4d4d;
+    width:100%;
+    height: 100%;
+    margin:0 auto;
+}
+
+/* Estilo encabezados */
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+mark{
+    background-color: rgb(252, 72, 72);
+}
+
+/* Estilos de la cabecera */
+
+header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: radial-gradient(white, grey, black);
+    color:red;
+    /* Añade una sombra al texto */
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+	list-style: none;
+	margin: 10; 
+    height:15%;
+    width:auto;
+    text-decoration: underline wavy  rgb(22, 21, 21) 3px;
+    border-style:double;
+}
+
+/* Estilos de las imágenes de la cabecera */
+.icon1{
+    height: 5rem;
+    width: 5rem;
+    padding-left: 25%;
+}
+
+.icon2{
+    height: 5rem;
+    width: 5rem;
+    padding-right: 25%;
+}
+
+/* Formato de los títulos */
+
+.titulo {
+    width:100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    color: red;
+}
+
+
+/* Estilos del bloque main */
+
+main {
+    background-color:#dbd9d9;
+    float:left;
+
+    width: 100%;
+    height: 30%;
+}
+
+/* Estilos del bloque main de noticias.html */
+
+#mainnoticias {
+    background-color:#dbd9d9;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+
+}
+
+
+/* Estilos para las etiquetas article */
+
+article {
+	background: radial-gradient(white, rgb(138, 137, 137), black);
+	border-radius: 1rem;
+	font-size: 1.2rem;
+
+	/* propiedad para visualizar en línea */
+
+	margin: 3rem;
+	margin-bottom: 1.5rem;
+
+	width: 38%;
+
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: aliceblue ridge 1rem;
+
+}
+
+article ul{
+    display:flex;
+    flex-direction: column;
+    align-content: start;
+}
+
+article p {
+    font-family: 'Times New Roman';
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    margin-right: 3%;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+article div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+/* Estilos del menú de navegación */
+
+nav ul {
+	/* Para posicionar la lista en una fila */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+	margin: auto; 
+    background: radial-gradient(white, grey, black);
+    border: 0.05rem solid red;
+    padding-left: 0px;
+  }
+  
+nav li {
+    border: 0.5rem ridge black;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    width: 100%;
+}
+
+/* Estilos del menú de navegación secundario de noticias.html*/
+
+#navsecundario {
+    height: 70%;
+    background-color: #4a4646;
+    width:10%;
+    float:left;
+    padding-bottom: 100%;
+    border-right: gray ridge 0.3rem;
+    
+}
+
+.navegador{
+    padding-top: 3rem;
+    padding-left: 0.6rem;
+    display: flex;
+	flex-direction: column;
+}
+
+.buttonnav {
+    
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: impact;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+             
+    cursor: pointer;
+    width: 100%;
+    background: radial-gradient(white, rgb(245, 144, 144), rgb(255, 32, 32));
+}
+
+
+
+/* Estilos del bloque aside */
+
+aside{
+    line-height:0.5rem;
+    background: radial-gradient(white, rgb(255, 185, 185), rgb(255, 98, 98));
+    float:right;
+
+    width: 35%;
+    height: 70%;
+    border-radius: 1rem;
+	font-size: 1.2rem;
+    border-block-color: red;
+    border-style: groove;
+    border-block-width: 0.4rem;
+}
+
+aside div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+aside p{
+    color: black;
+}
+
+/* Estilos de las imágenes del aside en contacto.html */
+.icono{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+/* Modifica el ancho del espacio ocupado por la sección del aside */
+.sectionaside{
+    width: 35%;
+}
+
+/* Formato del título del aside en contacto.html con fuente de letra importada de Google Fonts*/
+
+#titulocontacto{
+    margin-bottom: 3rem;
+    font-family: 'Ephesis', cursive;
+    font-size: 2rem;
+}
+
+
+/* Estilos del pie de página */
+
+footer {
+    background-color: rgb(252, 51, 51);
+    color:white;
+    clear: both;
+    text-align:center;
+    height:30%;
+    width:100%;
+
+    font-family: Georgia;
+    border-top: 0.15rem solid #04044f;
+    border-bottom: 0.15rem solid #9f1212;
+}
+
+.licencias{
+    font-size: 0.6rem;
+    font-style: italic;
+}
+
+
+/* Estilos de elementos del formulario de contacto.html */
+
+text textarea{
+    columns: 20;
+}
+
+form label{
+    font-weight: bold;
+    padding-bottom: 0.2rem;
+    padding-top: 0.3rem;
+}
+
+/* Estilos de los botones del formulario */
+
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+/* Formato de otros elementos */
+/* ************************** */
+
+
+/* Estilos de las imágenes index.html */
+.imagen{
+    width: 14rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    margin:auto;
+}
+
+/* Estilos de las secciones de los diferentes htmls */
+
+/* Estilos de las section de index.html, género.html y juego.html*/
+.seccion {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos de las section de noticias.html*/
+.seccionnoti {
+	display: flex;
+	flex-direction: column;
+    padding-left: 1rem;
+    width: 85%;
+}
+
+/* Estilos de las section de listado.html*/
+.seccionlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+
+/* Estilos de las section de contacto.html*/
+.formulariosec{
+    width: 65%;
+
+}
+
+/* Estilos de los botones */
+.button {
+    border:solid;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    margin-top: 2.5rem;
+}
+
+
+/* Estilos de los botones de noticias.html */
+.button1 {background-color: #04AA6D;} /* Verde */
+
+
+/* Estilo de los textos de las noticias  */
+.titnot{
+    font-family: 'Times New Roman';
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.textnot{
+    font-family: 'Times New Roman';
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+
+
+/* Estilo de las fechas de las noticias  */
+.titulonoticias{
+    font-family: 'Times New Roman';
+    font-size: 1.3rem;
+    color: black;
+    text-shadow: 0.1rem 0.1rem #ff0000;
+    margin-bottom: -2rem;
+
+}
+
+/* Class para modificar los article de noticias.html  */
+.noticia{
+    width: 75%;
+    border: #ca0606 solid 0.5rem;
+}
+
+/* Class para modificar las imágenes de noticias.html  */
+.imgnoti{
+    width: 11rem;
+    height: 8.5rem;
+    float:left;
+    padding:2rem;
+    border-radius: 25%;
+}
+
+/* Formato para los textos de la caja de información de juego.html */
+.formatoinfo{
+    font-weight:bolder;
+    font-style: italic;
+    color: white;
+    font-size: 1.7rem;
+}
+
+/* Formato para las imágenes de la caja de capturas de juego.html */
+.capturas{
+    width: 40%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+/* Clases para posicionar los elementos float en una posición con texto alrededor */
+.floatr{
+    float:right;
+    padding:1rem;
+}
+.floatl{
+    float:left;
+    padding:1rem;
+}
+
+/* Formato para los vídeos del article contenedor */
+
+.articlevideos {
+	background: radial-gradient(white, rgb(236, 161, 161), rgb(248, 8, 8));
+	border-radius: 5rem;
+	font-size: 1.2rem;
+	margin: 3rem;
+	margin-bottom: 1.5rem;
+	width: 40%;
+    border: aliceblue ridge 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Formato para los vídeos del div contenedor */
+.divvideos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Formato para los vídeos de index.html */
+.vidpadding{
+    padding:1rem;
+    border: none;
+    width: 400px;
+    height: 250px; 
+}
+
+/* Formato para el título de genero.html */
+#generostit{
+    font-size: 4rem;
+    z-index: 1;
+}
+
+/* Formato para las imágenes de genero.html */
+.generoimg{
+    height: 14rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+/* Formato para el título de listado.html */
+
+#listajuegos{
+    font-size: 4rem;
+    z-index: 1;             /* Texto superpuesto a la imagen del banner */
+    margin-bottom: 2rem;
+}
+
+/* Formato para el banner del título de listado.html */
+
+#imgbanner{
+    width: 29rem;
+    height: 8rem;
+    position: absolute;     /* Necesario para superponer el texto con z-index */
+    border: black inset 0.4rem;
+    z-index: 0;             /* Imagen por debajo del texto */
+}
+
+/* Formato los article de listado.html */
+
+.lista {
+    background: radial-gradient(white, rgb(138, 137, 137), black);
+	border-radius: 1rem;
+	font-size: 1.2rem;
+
+	/* propiedad para visualizar en línea */
+
+	margin: 3rem;
+	margin-bottom: 0rem;
+	width: 90%;
+
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 5rem;
+    border: black solid 0.5rem;
+}
+
+/* Formato para el form de contacto.html */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 3rem;
+    float: right;
+    position: relative;
+    z-index: 1;         /* Formulario superpuesto a la imagen de fondo */
+}
+
+/* Formato para la imagen de fondo de contacto.html */
+.info{
+    position:relative;
+    height: 17rem;
+    left:20%;
+    z-index: 0;         /* Imagen por debajo del formulario */
+}
+
+
+/* Formato para enlaces */
+/*: sin pulsar, ya visitado, ratón sobre el enlace y enlace pulsado */
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: #4d4d4d;
+	background-color: salmon;
+}
+a:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: gray;
+}
+a:active {
+	color: purple;
+	text-decoration: underline;
+	background-color: gray;
+}
+
+/* Formato para enlaces del nav secundario de noticias.html */
+
+nav a:link {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+  }
+
+nav a:visited {
+    color: white;
+	background-color: gray;
+}
+
+/* Formato para enlace de listado.html*/
+#linklista{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #5ae8ff;
+}
+
+ 
